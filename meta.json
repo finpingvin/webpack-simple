@@ -9,7 +9,7 @@
       "type": "string",
       "required": true,
       "label": "Project description",
-      "default": "A Vue.js project"
+      "default": "A DynApp Web Components project"
     },
     "author": {
       "type": "string",
@@ -19,12 +19,7 @@
       "type": "string",
       "label": "License",
       "default": "MIT"
-    },
-    "sass": {
-       "type": "confirm",
-       "message": "Use sass?",
-       "default": false
     }
   },
-  "completeMessage": "{{#inPlace}}To get started:\n\n  npm install\n  npm run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev{{/inPlace}}"
+  "completeMessage": "{{#inPlace}}To get started:\n\n  yarn install\n  yarn run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  yarn install\n  yarn run dev{{/inPlace}}"
 }
